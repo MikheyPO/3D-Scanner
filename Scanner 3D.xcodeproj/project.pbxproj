@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8BF69322927E97100EB2E6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF69312927E97100EB2E6F /* AppDelegate.swift */; };
+		F8BF69342927E97100EB2E6F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF69332927E97100EB2E6F /* SceneDelegate.swift */; };
+		F8BF69362927E97100EB2E6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF69352927E97100EB2E6F /* ViewController.swift */; };
+		F8BF69392927E97100EB2E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BF69372927E97100EB2E6F /* Main.storyboard */; };
+		F8BF693B2927E97200EB2E6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8BF693A2927E97200EB2E6F /* Assets.xcassets */; };
+		F8BF693E2927E97200EB2E6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8BF693C2927E97200EB2E6F /* LaunchScreen.storyboard */; };
+		F8BF69492927E97200EB2E6F /* Scanner_3DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF69482927E97200EB2E6F /* Scanner_3DTests.swift */; };
+		F8BF69532927E97200EB2E6F /* Scanner_3DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF69522927E97200EB2E6F /* Scanner_3DUITests.swift */; };
+		F8BF69552927E97200EB2E6F /* Scanner_3DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BF69542927E97200EB2E6F /* Scanner_3DUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8BF69452927E97200EB2E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BF69262927E97100EB2E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BF692D2927E97100EB2E6F;
+			remoteInfo = "Scanner 3D";
+		};
+		F8BF694F2927E97200EB2E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BF69262927E97100EB2E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BF692D2927E97100EB2E6F;
+			remoteInfo = "Scanner 3D";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8BF692E2927E97100EB2E6F /* Scanner 3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scanner 3D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BF69312927E97100EB2E6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8BF69332927E97100EB2E6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F8BF69352927E97100EB2E6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8BF69382927E97100EB2E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8BF693A2927E97200EB2E6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8BF693D2927E97200EB2E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8BF693F2927E97200EB2E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BF69442927E97200EB2E6F /* Scanner 3DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scanner 3DTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BF69482927E97200EB2E6F /* Scanner_3DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner_3DTests.swift; sourceTree = "<group>"; };
+		F8BF694E2927E97200EB2E6F /* Scanner 3DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scanner 3DUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BF69522927E97200EB2E6F /* Scanner_3DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner_3DUITests.swift; sourceTree = "<group>"; };
+		F8BF69542927E97200EB2E6F /* Scanner_3DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scanner_3DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BF692B2927E97100EB2E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BF69412927E97200EB2E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BF694B2927E97200EB2E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8BF69252927E97100EB2E6F = {
+			isa = PBXGroup;
+			children = (
+				F8BF69302927E97100EB2E6F /* Scanner 3D */,
+				F8BF69472927E97200EB2E6F /* Scanner 3DTests */,
+				F8BF69512927E97200EB2E6F /* Scanner 3DUITests */,
+				F8BF692F2927E97100EB2E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BF692F2927E97100EB2E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF692E2927E97100EB2E6F /* Scanner 3D.app */,
+				F8BF69442927E97200EB2E6F /* Scanner 3DTests.xctest */,
+				F8BF694E2927E97200EB2E6F /* Scanner 3DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BF69302927E97100EB2E6F /* Scanner 3D */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF69312927E97100EB2E6F /* AppDelegate.swift */,
+				F8BF69332927E97100EB2E6F /* SceneDelegate.swift */,
+				F8BF69352927E97100EB2E6F /* ViewController.swift */,
+				F8BF69372927E97100EB2E6F /* Main.storyboard */,
+				F8BF693A2927E97200EB2E6F /* Assets.xcassets */,
+				F8BF693C2927E97200EB2E6F /* LaunchScreen.storyboard */,
+				F8BF693F2927E97200EB2E6F /* Info.plist */,
+			);
+			path = "Scanner 3D";
+			sourceTree = "<group>";
+		};
+		F8BF69472927E97200EB2E6F /* Scanner 3DTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF69482927E97200EB2E6F /* Scanner_3DTests.swift */,
+			);
+			path = "Scanner 3DTests";
+			sourceTree = "<group>";
+		};
+		F8BF69512927E97200EB2E6F /* Scanner 3DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BF69522927E97200EB2E6F /* Scanner_3DUITests.swift */,
+				F8BF69542927E97200EB2E6F /* Scanner_3DUITestsLaunchTests.swift */,
+			);
+			path = "Scanner 3DUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8BF692D2927E97100EB2E6F /* Scanner 3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BF69582927E97200EB2E6F /* Build configuration list for PBXNativeTarget "Scanner 3D" */;
+			buildPhases = (
+				F8BF692A2927E97100EB2E6F /* Sources */,
+				F8BF692B2927E97100EB2E6F /* Frameworks */,
+				F8BF692C2927E97100EB2E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scanner 3D";
+			productName = "Scanner 3D";
+			productReference = F8BF692E2927E97100EB2E6F /* Scanner 3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8BF69432927E97200EB2E6F /* Scanner 3DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BF695B2927E97200EB2E6F /* Build configuration list for PBXNativeTarget "Scanner 3DTests" */;
+			buildPhases = (
+				F8BF69402927E97200EB2E6F /* Sources */,
+				F8BF69412927E97200EB2E6F /* Frameworks */,
+				F8BF69422927E97200EB2E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BF69462927E97200EB2E6F /* PBXTargetDependency */,
+			);
+			name = "Scanner 3DTests";
+			productName = "Scanner 3DTests";
+			productReference = F8BF69442927E97200EB2E6F /* Scanner 3DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8BF694D2927E97200EB2E6F /* Scanner 3DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BF695E2927E97200EB2E6F /* Build configuration list for PBXNativeTarget "Scanner 3DUITests" */;
+			buildPhases = (
+				F8BF694A2927E97200EB2E6F /* Sources */,
+				F8BF694B2927E97200EB2E6F /* Frameworks */,
+				F8BF694C2927E97200EB2E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BF69502927E97200EB2E6F /* PBXTargetDependency */,
+			);
+			name = "Scanner 3DUITests";
+			productName = "Scanner 3DUITests";
+			productReference = F8BF694E2927E97200EB2E6F /* Scanner 3DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BF69262927E97100EB2E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F8BF692D2927E97100EB2E6F = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F8BF69432927E97200EB2E6F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F8BF692D2927E97100EB2E6F;
+					};
+					F8BF694D2927E97200EB2E6F = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F8BF692D2927E97100EB2E6F;
+					};
+				};
+			};
+			buildConfigurationList = F8BF69292927E97100EB2E6F /* Build configuration list for PBXProject "Scanner 3D" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8BF69252927E97100EB2E6F;
+			productRefGroup = F8BF692F2927E97100EB2E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BF692D2927E97100EB2E6F /* Scanner 3D */,
+				F8BF69432927E97200EB2E6F /* Scanner 3DTests */,
+				F8BF694D2927E97200EB2E6F /* Scanner 3DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8BF692C2927E97100EB2E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF693E2927E97200EB2E6F /* LaunchScreen.storyboard in Resources */,
+				F8BF693B2927E97200EB2E6F /* Assets.xcassets in Resources */,
+				F8BF69392927E97100EB2E6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BF69422927E97200EB2E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BF694C2927E97200EB2E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BF692A2927E97100EB2E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF69362927E97100EB2E6F /* ViewController.swift in Sources */,
+				F8BF69322927E97100EB2E6F /* AppDelegate.swift in Sources */,
+				F8BF69342927E97100EB2E6F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BF69402927E97200EB2E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF69492927E97200EB2E6F /* Scanner_3DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BF694A2927E97200EB2E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BF69552927E97200EB2E6F /* Scanner_3DUITestsLaunchTests.swift in Sources */,
+				F8BF69532927E97200EB2E6F /* Scanner_3DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8BF69462927E97200EB2E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BF692D2927E97100EB2E6F /* Scanner 3D */;
+			targetProxy = F8BF69452927E97200EB2E6F /* PBXContainerItemProxy */;
+		};
+		F8BF69502927E97200EB2E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BF692D2927E97100EB2E6F /* Scanner 3D */;
+			targetProxy = F8BF694F2927E97200EB2E6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8BF69372927E97100EB2E6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BF69382927E97100EB2E6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8BF693C2927E97200EB2E6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8BF693D2927E97200EB2E6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8BF69562927E97200EB2E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8BF69572927E97200EB2E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8BF69592927E97200EB2E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8LWAAB2XC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scanner 3D/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoxDev.Scanner-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8BF695A2927E97200EB2E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8LWAAB2XC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Scanner 3D/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoxDev.Scanner-3D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8BF695C2927E97200EB2E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8LWAAB2XC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoxDev.Scanner-3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scanner 3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scanner 3D";
+			};
+			name = Debug;
+		};
+		F8BF695D2927E97200EB2E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8LWAAB2XC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoxDev.Scanner-3DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scanner 3D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scanner 3D";
+			};
+			name = Release;
+		};
+		F8BF695F2927E97200EB2E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8LWAAB2XC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoxDev.Scanner-3DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scanner 3D";
+			};
+			name = Debug;
+		};
+		F8BF69602927E97200EB2E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8LWAAB2XC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FoxDev.Scanner-3DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scanner 3D";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BF69292927E97100EB2E6F /* Build configuration list for PBXProject "Scanner 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BF69562927E97200EB2E6F /* Debug */,
+				F8BF69572927E97200EB2E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BF69582927E97200EB2E6F /* Build configuration list for PBXNativeTarget "Scanner 3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BF69592927E97200EB2E6F /* Debug */,
+				F8BF695A2927E97200EB2E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BF695B2927E97200EB2E6F /* Build configuration list for PBXNativeTarget "Scanner 3DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BF695C2927E97200EB2E6F /* Debug */,
+				F8BF695D2927E97200EB2E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BF695E2927E97200EB2E6F /* Build configuration list for PBXNativeTarget "Scanner 3DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BF695F2927E97200EB2E6F /* Debug */,
+				F8BF69602927E97200EB2E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BF69262927E97100EB2E6F /* Project object */;
+}
