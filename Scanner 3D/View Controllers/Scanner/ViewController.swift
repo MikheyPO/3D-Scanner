@@ -30,6 +30,11 @@ class ViewController: UIViewController, ARSessionDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         arViewConfig()
     }
 
@@ -165,15 +170,10 @@ class ViewController: UIViewController, ARSessionDelegate {
 //                try asset.export(to: urlOBJ)
                 try asset.export(to: urlOBJ)
                 
-                let items = try FileManager.default.contentsOfDirectory(atPath: documentsPath.path)
-
-//                arView?.session.pause()
-//                    arView?.session.delegate = nil
-//                    arView?.scene.anchors.removeAll()
-//                    arView?.removeFromSuperview()
-//                    arView?.window?.resignKey()
-//                    arView = nil
-//                performSegue(withIdentifier: "showMenu", sender: self)
+                arView?.session.pause()
+                if let configuration = arView.session.configuration {
+                            arView.session.run(configuration, options: .resetSceneReconstruction)
+                }
                 
                 let vc = MenuVC(nibName: "MenuVC", bundle: nil)
                 self.navigationController?.pushViewController(vc, animated: true)
@@ -196,6 +196,12 @@ class ViewController: UIViewController, ARSessionDelegate {
     
     
     @IBAction func showMenuTap(_ sender: Any) {
+        
+        arView?.session.pause()
+        if let configuration = arView.session.configuration {
+                    arView.session.run(configuration, options: .resetSceneReconstruction)
+        }
+        
         let vc = MenuVC(nibName: "MenuVC", bundle: nil)
         self.navigationController?.pushViewController(vc, animated: true)
     }
