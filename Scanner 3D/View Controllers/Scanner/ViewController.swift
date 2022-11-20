@@ -17,7 +17,11 @@ class ViewController: UIViewController, ARSessionDelegate {
 
     @IBOutlet weak var arView: ARView!
     
-    @IBOutlet weak var saveScane: UIButton!
+    @IBOutlet weak var saveScane: UIButton! {
+        didSet {
+            saveScane.setTitle("Save", for: .normal)
+        }
+    }
     
     let coachingOverlay = ARCoachingOverlayView()
     
@@ -26,6 +30,26 @@ class ViewController: UIViewController, ARSessionDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        arViewConfig()
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        // Prevent the screen from being dimmed to avoid interrupting the AR experience.
+        UIApplication.shared.isIdleTimerDisabled = true
+    }
+    
+    override var prefersHomeIndicatorAutoHidden: Bool {
+        return true
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    //MARK: func
+    
+    private func arViewConfig() {
         arView.session.delegate = self
         
 //        setupCoachingOverlay()
@@ -54,30 +78,19 @@ class ViewController: UIViewController, ARSessionDelegate {
         configuration.environmentTexturing = .automatic
         arView.session.run(configuration)
     }
-
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        // Prevent the screen from being dimmed to avoid interrupting the AR experience.
-        UIApplication.shared.isIdleTimerDisabled = true
-    }
     
-    override var prefersHomeIndicatorAutoHidden: Bool {
-        return true
-    }
-    
-    override var prefersStatusBarHidden: Bool {
-        return true
-    }
-    
-    
-    @IBAction func saveAction(_ sender: UIButton) {
+    private func generate3DModel() {
         guard let frame = arView.session.currentFrame else {
 //            fatalError("Couldn't get the current ARFrame")
+            print("error")
+            return
         }
         
         // Fetch the default MTLDevice to initialize a MetalKit buffer allocator with
         guard let device = MTLCreateSystemDefaultDevice() else {
 //            fatalError("Failed to get the system's default Metal device!")
+            print("error")
+            return
         }
         
         // Using the Model I/O framework to export the scan, so we're initialising an MDLAsset object,
@@ -173,6 +186,12 @@ class ViewController: UIViewController, ARSessionDelegate {
         } else {
 //            fatalError("Can't export OBJ")
         }
+    }
+    
+    //MARK: Action
+    
+    @IBAction func saveAction(_ sender: UIButton) {
+        generate3DModel()
     }
     
     
